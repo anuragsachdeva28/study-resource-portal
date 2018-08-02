@@ -1,0 +1,108 @@
+body{
+	background-image: url("dark-blue-wallpaperhd-1080p.png");
+	color: white;
+}
+div{
+	padding-left: 33%;
+}
+h4{
+	font-size: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	padding-left: 7%;
+	margin-top: 0;
+	padding-top: 20px;
+}
+h1{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 70px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+#first{
+	margin-top: 30px;
+}
+.link{
+	margin: 1% 35% 1% 35%;
+	padding-left: 0;
+}
+.welcome{
+	position: absolute;
+  	z-index: 3;
+}
+button{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+	background: none;
+	padding: 5% 37% 5% 37%;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	transition: all 0.3s;
+}
+button:hover{
+	background-color: rgb(57, 78, 239); 
+}
+#lightbox {
+	padding: 0%;
+  display:none;
+  background: rgba(0,0,0,0.8);
+  position:absolute;
+  top:0px;
+  left:0px;
+  min-width:100%;
+  min-height:100%;
+  z-index:1000;
+}
+#lightbox-panel {
+  display:none;
+  position:fixed;
+  top:175px;
+  margin-left:25%;
+  margin-right: 0%;
+  margin-bottom: 10%;
+  width:700px;
+  height: 375px;
+  background:#FFFFFF;
+  padding:10px 15px 10px 5px;
+  border:2px solid #CCCCCC;
+  border-radius: 30px;
+  z-index:1001;
+}
+#lightbox-panel button{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	height: 25%;
+	width: 100%;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-size: 40px;
+	padding: 0% 5% 0% 5%;
+	margin: 0%;
+	border: 2px solid rgb(155, 155, 155);
+	border-radius: 10px;
+
+}
+#lightbox-panel button:first-of-type{
+	margin-bottom: 25px;
+}
+#lightbox-panel span{
+	width: 12%;
+	height: 12%;
+	float: right;
+	margin-left: 97%;
+	margin-right: 2%;
+	margin-top: 0%;
+	margin-bottom: 4%;
+	padding: 0%;
+	text-align: center;
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}

@@ -1,0 +1,108 @@
+body{
+	background-color: white;
+}
+.lform{
+	background: rgb(221, 221, 221);
+	color: black;
+	margin: 2% 20% 0% 20%;
+	padding: 2% 6% 2% 6%;
+	border: 3px solid rgb(155, 155, 155);
+	font-size: 25px;
+}
+.lform input{
+	width: 100%;
+	border-width: 0 0 2px 0;
+	border-bottom: solid rgb(155, 155, 155);
+	background-color: rgb(221, 221, 221); 
+	transition: all 0.3s;
+	height: 20%;
+}
+input[type="radio"], input[type="checkbox"]
+{
+	width: 5%;
+	transition: all 3s;
+}
+
+/*.abc{
+	border:1%;
+	width: 20%;
+	text-align: center;
+	font-size: 80%;
+	margin-left: 80%;
+	padding: 10px 30px 10px 30px; 
+	margin-top: 7%;
+	transition: all 0.3s;
+	border-radius: 10%;
+	cursor: pointer;
+}*/
+select{
+	padding: 10px;
+	transition: all 0.2s;
+}
+input:hover{
+	/*border-bottom: solid rgb(94, 155, 255);*/
+}
+/*button:hover{
+	width: 20%;
+	text-align: center;
+	font-size: 80%;
+	margin-left: 80%;
+	padding: 10px 30px 10px 30px; 
+	margin-top: 7%;
+	color: white;
+	background-color: rgb(57, 78, 239);
+	 border: 1px solid;
+    /*box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;    
+}*/
+/*.abc:focus{
+	border:5px;
+	box-shadow: 5px 5px 5px 5px;
+	background-color: red !important;
+}*/
+select:hover{
+	border: 1px solid black;
+	border: solid rgb(94, 155, 255);
+}
+.lform h1{
+	text-align: center;
+	margin-bottom: 6%;
+	font-size: 50px;
+	padding-top: 5px;
+	margin-top: 0;
+	color: rgb(6, 148, 155);
+}
+.fa-times {
+	float: right;
+}
+#lf{
+	z-index: -1;
+}
+#sf{
+	margin-top: 6%;
+	padding-bottom: 6%;
+	font-size: 25px;
+	z-index: -2;
+}
+button {
+    background-color: rgb(57, 78, 239);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+	border-radius: 5%;
+    float: right;
+    font-size: 80%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+input:focus{
+	/*border:0;*/
+
+}

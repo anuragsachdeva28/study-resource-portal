@@ -1,0 +1,58 @@
+body{
+background: #59C173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.details{
+	margin: 30px;
+	margin-top: 40px;
+	margin-right: 30px;
+	border: 2px solid rgb(47, 44, 153);
+	background-color: rgb(232, 232, 232);
+	width: 520px;
+	padding-right: 5px;
+	position: fixed;
+	overflow-x: hidden;
+}
+.lf{
+	margin-bottom: 30px;
+}
+#im{
+	margin-left: 83.5%;
+}
+.details p{
+	font-weight: bold;
+	padding-left: 5%;
+}
+.input-group{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 0%;
+}
+.input-group .custom-select{
+	width: 20%;
+}
+.input-group .custom-select:first-of-type{
+	margin-right: 13%;
+}
+#myTab{
+	padding-left: 550px;
+}
+.nav-item li{
+	border: 10px solid black;
+	padding-left: 100%;
+
+}
+.nav-item ul li:not(:first-of-type){
+	margin-left: 10px;
+}
+.nav-item a{
+	color: rgb(47, 44, 153);
+	font-size: 20px;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+.nav-item a:hover{
+	color: rgb(23, 99, 198);
+}

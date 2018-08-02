@@ -1,0 +1,52 @@
+body{
+background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.details{
+	margin: 30px;
+	margin-top: 40px;
+	border: 2px solid rgb(47, 44, 153);
+	background-color: rgb(232, 232, 232);
+	width: 520px;
+	padding-right: 5px;
+	position: fixed;
+	overflow-x: hidden;
+}
+.lf{
+	margin-bottom: 30px;
+}
+#im{
+	margin-left: 83.5%;
+}
+.details p{
+	font-weight: bold;
+	padding-left: 5%;
+}
+.input-group{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 0%;
+}
+.input-group .custom-select{
+	width: 20%;
+}
+.input-group .custom-select:first-of-type{
+	margin-right: 13%;
+}
+.custom-file{
+	margin-left: 15%;
+	/*margin-right: 35%;*/
+}
+.input-group-append{
+	margin-right: 20%;
+}
+.input-group-prepend .unit{
+	margin-left: 0%;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+}
+.opt{
+	margin-bottom: 50px!important;
+}
