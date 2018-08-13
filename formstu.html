@@ -3,6 +3,7 @@
 <head>
 	<title>Student Sign Up</title>
 	<link rel="stylesheet" type="text/css" href="css\form.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
 	<script type="text/javascript" src="js\jquery-3.3.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 	<link rel="shortcut icon" href="78569 (1).ico">
@@ -11,26 +12,26 @@
 	<div class="lform" id="lf">	
 	<form>
 		<h1 id="sign">Student Sign Up</h1>
-		<label for="fname">Name:</label>
-		<br><input id=fname type="text" name="First name" required>
-		<p>Gender: 
-		<br><label for="Male">Male</label>
+		<input id=fname type="text" name="First name" placeholder="Name" required>
+		<div><span style="margin-left: 200px"></span>Gender:
+		<label for="Male" style="margin-left: 20px">	Male</label>
 		<input id="Male" type="radio" name="gender">
 		<label for="Female">Female</label>
 		<input id="Female" type="radio" name="gender">
 		<label for="Other">Other</label>
 		<input id="Other" type="radio" name="gender">
-		</p>
-		<p>
-		<label for="Email">Email:</label>
-		<br><input id="Email" type="Email" name="Email" required>
-		</p>
-		<p>
-		<label for="Password">Password</label>
-		<br><input id="Password" type="Password" name="Password" pattern=".{5,20}" required title="5 to 20 characters">
-		</p>
-		<p>Date Of Birth: 
-		<select name="Month">
+		</div>
+		<div>
+		<input id="uniqueId" type="text" name="Unique" placeholder="Admission Number" required>
+		</div>
+		<div>
+		<input id="Email" type="Email" name="Email" placeholder="Email" required>
+		</div>
+		<div>
+		<input id="Password" type="Password" name="Password" pattern=".{5,20}" placeholder="Password" required title="5 to 20 characters">
+		</div>
+		<div>Date Of Birth: 
+		<select name="Month" style="margin-left: 20px">
 			<option>Month</option>
 			<option>jan</option> <option>Feb</option> <option>Mar</option> <option>Apr</option> <option>May</option> <option>Jun</option> <option>Jul</option> <option>Aug</option> <option>Sep</option> <option>Oct</option> <option>Nov</option> <option>Dec</option>
 
@@ -44,12 +45,7 @@
 			<option>Year</option>
 			<option>2000</option> <option>1999</option> <option>1998</option> <option>1997</option> <option>1996</option> <option>1995</option> <option>1994</option> <option>1993</option> <option>1992</option> <option>1991</option> <option>1990</option> <option>1989</option> <option>1988</option> <option>1987</option> <option>1986</option> <option>1985</option><option>1984</option> <option>1983</option>
 		</select>
-		</p>
-		<p>
-			I agree to the terms and conditions:
-			<input type="checkbox" name="checkbox">
-
-		</p>
+		</div>
 		<button id="submit" class="abc">Submit</button>
 		<div style="clear: both;"></div>
 	</form>
