@@ -6,10 +6,10 @@ background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, F
 .details{
 	margin: 30px;
 	margin-top: 40px;
-	margin-right: 30px;
+	margin-right: 30%;
 	border: 2px solid rgb(47, 44, 153);
 	background-color: rgb(232, 232, 232);
-	width: 520px;
+	width: 34%;
 	padding-right: 5px;
 	position: fixed;
 	overflow-x: hidden;
@@ -36,7 +36,8 @@ background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, F
 	margin-right: 13%;
 }
 #myTab{
-	padding-left: 550px;
+	padding-left: 36%;
+	padding-right: 30%;
 }
 .nav-item li{
 	border: 10px solid black;
