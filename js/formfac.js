@@ -11,6 +11,6 @@ $(".lform input").click(function(event){
 	// $(this).css("border-bottom", "4px solid red");
 	// console.log("clicked");
 });
-$("#submit").click(function(event){
-	window.location = './teacher.html'
+$("#target").submit(function(event){
+	window.location = './teacher.html';
 });
